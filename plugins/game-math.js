@@ -21,7 +21,7 @@ ${Object.keys(modes).join(' | ')}
     if (id in conn.math) return conn.reply(m.chat, '⚠️ لم يجاوب احد السؤال الحالي !', conn.math[id][0])
     let math = genMath(mode)
     conn.math[id] = [
-        await conn.reply(m.chat, `▢ السؤال:/n*${math.str}*=\n\n_الوقت:_ ${(math.time / 1000).toFixed(2)} seconds\n\n🎁 الجائزه : ${math.bonus} XP`, m),
+        await conn.reply(m.chat, `▢ السؤال:\n*${math.str}*=\n\n_الوقت:_ ${(math.time / 1000).toFixed(2)} seconds\n\n🎁 الجائزه : ${math.bonus} XP`, m),
         math, 4,
         setTimeout(() => {
             if (conn.math[id]) conn.reply(m.chat, `⏳ الوقت انتهى!\nالاجابه : *${math.result}*`, conn.math[id][0])
