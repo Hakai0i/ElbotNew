@@ -5,8 +5,8 @@ let chat = global.db.data.chats[m.chat]
     conn.reply(m.chat, `لانه تكلم معك`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 } 
-    if (/^zbi$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `7ram`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+    if (/^زيرو تو$/i.test(m.text) ) { //sem prefixo
+    conn.reply(m.chat, `هلا يقلب زيرو تو من جوا`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 }
    if (/^يب$/i.test(m.text) ) { //sem prefixo
@@ -21,8 +21,8 @@ let chat = global.db.data.chats[m.chat]
     conn.reply(m.chat, `عيونو في ايش اساعدك`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 } 
-  if (/^مغربي$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `فوق راسه تاج يوصخ`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+  if (/^اماراتي$/i.test(m.text) ) { //sem prefixo
+    conn.reply(m.chat, `فوق راسك ياوصخ`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 } 
   if (/^🙂$/i.test(m.text) ) { //sem prefixo
@@ -38,7 +38,7 @@ let chat = global.db.data.chats[m.chat]
 
 } 
    if (/^انا جيت$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `ويلكم باك يا اصطوره`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+    conn.reply(m.chat, `ويلكم باك يا اسطوره`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 } 
    if (/^بتزوجك$/i.test(m.text) ) { //sem prefixo
