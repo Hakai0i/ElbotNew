@@ -21,8 +21,8 @@ let chat = global.db.data.chats[m.chat]
     conn.reply(m.chat, `عيونو في ايش اساعدك`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 } 
-  if (/^اماراتي$/i.test(m.text) ) { //sem prefixo
-    conn.reply(m.chat, `فوق راسك ياوصخ`, m) //wm, null, [['Menu', '#menu']], m) botones :V
+  if (/^لايت$/i.test(m.text) ) { //sem prefixo
+    conn.reply(m.chat, `وخر عن حبيبي يامتحرش +971 55 352 7240`, m) //wm, null, [['Menu', '#menu']], m) botones :V
 
 } 
   if (/^🙂$/i.test(m.text) ) { //sem prefixo
