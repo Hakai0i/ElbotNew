@@ -25,14 +25,14 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
 ⬡ الرابط: ${url}
 ╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['VIDEO', `${usedPrefix}ytmp4 ${url}`], false, { quoted: m, 'document': { 'url':'https://wa.me/201206178781' },
 'mimetype': global.dpdf,
-'fileName': `مشغل ميكاسا`,
+'fileName': `مشغل زيرو تو`,
 'fileLength': 666666666666666,
 'pageCount': 666,contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType:  2,
 mediaUrl: `${url}`,
 title: `جاري الارسال`,
 body: wm,
-sourceUrl: 'http://wa.me/201206178781', thumbnail: await ( await conn.getFile(thumbnail)).data
+sourceUrl: 'https://wa.me/message/PUKK5X6DR5SDC1', thumbnail: await ( await conn.getFile(thumbnail)).data
   }
  } 
 })
