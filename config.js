@@ -7,13 +7,13 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['201206178781', 'ɢᴏᴊᴏ', true],
-  ['201159250900', 'ɪᴛᴏsʜɪ', true], 
+  ['971553527240', 'لايت', true],
+  [''], 
   [''] 
 ] //Number of owners
 
-global.mods = ['201159250900','201206178781'] 
-global.prems = ['201206178781', '201159250900', '967780763155']
+global.mods = ['971553527240','971553527240'] 
+global.prems = ['971553527240', '971553527240', '971553527240']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -47,19 +47,19 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'ᴛʜᴇ MIKASA ʙᴏᴛ'
+global.botname = 'زيرو تو بوت'
 global.premium = 'true'
-global.packname = '✿ 𝗠𝐈𝐊𝗔𝗦𝗔 ┃ᴮᴼᵀ' 
-global.author = 'ɪᴛᴏsʜɪ ʀɪɴ ♡' 
-global.igfg = '❀ Follow on Instagram\nhttps://instagram.com/mohamedmostafa4769?igshid=ZGUzMzM3NWJiOQ==\n' 
-global.dygp = 'https://chat.whatsapp.com/JcWLIylfbI5I0wazsJ7xEB'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT-V1' 
-global.fgyt = 'https://youtube.com/@Mo_yt74'
-global.fgpyp = 'https://youtube.com/@Mo_yt74'
+global.packname = '✿ زيرو تو ┃ᴮᴼᵀ' 
+global.author = '+971553527240 ♡' 
+global.igfg = '❀ تابعني على الانستا \nhttps://instagram.com/m2ln11?igshid=OGQ5ZDc2ODk2ZA==\n' 
+global.dygp = 'https://chat.whatsapp.com/IhYY2vOmbSJJZpKimQ9ydO'
+global.fgsc = 'موقعنا الخاص ❤️ \nhttps://tinyurl.com/ZeroTwoBoot' 
+global.fgyt = 'https://youtube.com/@ZEROTWOBOT'
+global.fgpyp = 'https://youtube.com/@ZEROTWOBOT'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
 global.dbase = 'mongodb+srv://guru:guru@cluster0.qpggl6x.mongodb.net/?retryWrites=true&w=majority' //ADD YOUR MONGODB BY CHANGIMG IT
 
-global.wait = '*⌛ _جاري التحميل..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _اصبر ياخي يحمل..._*\n*لا تستعجل 🗿👍*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
